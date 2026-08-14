@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Quote Request | Muthathi Constructions</title>
+    <meta name="description" content="Get in touch with Muthathi Constructions. Request a building quote, find our phone number, email, and office addresses in Thohoyandou and Elim.">
+  
+</head>
+<body>
+    <!-- Header contains the logo and main navigation -->
+    <header class="site-header">
+        <div class="logo-area">
+            <img src="images/logo.jpeg" alt="Muthathi Constructions logo" width="150" height="50">
+        </div>
+        <!-- Horizontal navigation using inline tags since I can't use CSS yet -->
+        <nav>
+            <a href="index.html">Home</a> &nbsp;|&nbsp;
+            <a href="about.html">About</a> &nbsp;|&nbsp;
+            <a href="services.html">Services</a> &nbsp;|&nbsp;
+            <a href="projects.html">Projects</a> &nbsp;|&nbsp;
+            <a href="contact.html">Contact / Request a Quote</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-details">
+            <h1>Contact Us or Request a Quote</h1>
+            <p>Whether you have a simple question about our services, need advice on your project, or are ready to get a detailed estimate, we are here to help. Reach out to our team today.</p>
+            
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p><strong>Phone:</strong> +27 11 555 0199</p>
+                <p><strong>Email:</strong> info@muthathiconstructions.co.za</p>
+                
+                <!-- Listing both locations as requested -->
+                <p><strong>Head Office:</strong> 123 Main Street, Thohoyandou, 0950, South Africa</p>
+                <p><strong>Regional Office:</strong> 45 Church Street, Elim, 0955, South Africa</p>
+                
+                <p><strong>WhatsApp:</strong> <a href="#">Chat with us on WhatsApp</a> (Available 08:00 – 17:00, Mon–Fri)</p>
+            </div>
+        </section>
+
+        <!-- I need to embed the Google Map here so clients can see where our head office is located -->
+        <section class="map-section">
+            <h2>Find Us</h2>
+            <div class="map-container">
+                <!-- This iframe shows a map of the Thohoyandou area in Limpopo, South Africa -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.9!2d30.48!3d-22.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec7b1c2b3a5d4e3%3A0x2a6a2f4b3c8d3e2f!2sThohoyandou%2C%20Limpopo%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1690000000000!5m2!1sen!2sza" allowfullscreen="" loading="lazy" width="600" height="450"></iframe>
+            </div>
+        </section>
+
+        <!-- Now I'm building the quote request form -->
+        <section class="quote-section">
+            <h2>Request a Quote</h2>
+            <p>Fill in the details below and we will get back to you with a tailored quote for your construction project within 48 hours.</p>
+            
+            <form class="quote-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+27 11 555 0199">
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Service Required:</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="general-construction">General Construction</option>
+                        <option value="renovations">Renovations</option>
+                        <option value="painting-finishing">Painting and Finishing</option>
+                        <option value="paving">Paving</option>
+                        <option value="maintenance">Building Maintenance</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="location">Project Location:</label>
+                    <input type="text" id="location" name="location" placeholder="City, Province or specific site address">
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Preferred Start Date:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Project Description:</label>
+                    <textarea id="description" name="description" rows="5" required placeholder="Tell us about your project, approximate size, and any special requirements..."></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="submit-button">Submit Quote Request</button>
+                    <button type="reset" class="reset-button">Clear Form</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Muthathi Constructions (Pty) Ltd. All rights reserved.</p>
+        <p>Email: info@muthathiconstructions.co.za | Phone: +27 11 555 0199</p>
+        <div>
+            <a href="https://www.facebook.com/ConstructionSA" target="_blank" rel="noopener noreferrer">Facebook</a> |
+            <a href="https://www.instagram.com/constructionsa" target="_blank" rel="noopener noreferrer">Instagram</a> |
+            <a href="https://www.tiktok.com/@construction" target="_blank" rel="noopener noreferrer">TikTok</a> |
+            <a href="https://www.youtube.com/@constructionsa" target="_blank" rel="noopener noreferrer">YouTube</a>
+        </div>
+    </footer>
+</body>
+</html>
