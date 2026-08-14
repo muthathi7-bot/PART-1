@@ -1,4 +1,8 @@
-*Part:* 1 - Building the Foundation  
+## References
+- Mozilla Developer Network (MDN), 2026. HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 14 August 2026).
+- Mozilla Developer Network (MDN), 2026. HTML forms - Learn web development. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms (Accessed: 14 August 2026).
+- World Wide Web Consortium (W3C), 2024. Web Content Accessibility Guidelines (WCAG) 2.2. Available at: https://www.w3.org/TR/WCAG22/ (Accessed: 14 August 2026).
+- Google, 2026. Google Maps Platform Documentation. Available at: https://developers.google.com/maps/documentation/embed/embedding-map (Accessed: 14 August 2026).*Part:* 1 - Building the Foundation  
 
 ## Project Overview
 This project is a 5-page static HTML website for a fictional construction company called Muthathi Constructions (Pty) Ltd. The website serves as a portfolio and lead-generation tool for potential clients including homeowners, developers, and businesses. It focuses on semantic HTML5 structure, proper file organisation, and accessibility.
