@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Quote | Muthathi Constructions</title>
+    <meta name="description" content="Request a construction quote from Muthathi Constructions. Fill in your project details and get an estimate within 48 hours.">
+    <meta name="keywords" content="construction quote South Africa, building quote Limpopo, renovation estimate, painting quote, paving estimate">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Site header with logo, hamburger button, and navigation -->
+    <header class="site-header">
+        <div class="logo-area">
+            <a href="index.html">
+                <img src="images/logo.jpeg" srcset="images/logo.jpeg 150w" sizes="150px" alt="Muthathi Constructions company logo" width="150" height="50" loading="lazy" decoding="async">
+            </a>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Intro explaining what the form is for and how fast we reply -->
+        <section class="page-intro animate-on-scroll">
+            <h1>Request a Quote</h1>
+            <p>Tell us about your project and we will come back to you with an estimate. We respond within 48 hours.</p>
+        </section>
+
+        <!-- Quote request form. JavaScript validates inputs and calculates an estimate -->
+        <section class="quote-form-section animate-on-scroll">
+            <form class="quote-form" id="enquiry-form" action="#" method="post" novalidate>
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+27 11 555 0199">
+                </div>
+                <div class="form-group">
+                    <label for="category">Service Required:</label>
+                    <select id="category" name="category" required>
+                        <option value="">Select a service</option>
+                        <option value="general-construction">General Construction</option>
+                        <option value="renovations">Renovations</option>
+                        <option value="painting-finishing">Painting and Finishing</option>
+                        <option value="paving">Paving</option>
+                        <option value="maintenance">Building Maintenance</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="location">Project Location:</label>
+                    <input type="text" id="location" name="location" placeholder="City, Province or site address">
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Start Date:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div class="form-group">
+                    <label for="description">Project Description:</label>
+                    <textarea id="description" name="description" rows="5" required placeholder="Tell us about your project, approximate size, and any special requirements"></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="submit-button">Submit Quote Request</button>
+                    <button type="reset" class="reset-button">Clear Form</button>
+                </div>
+                <!-- JavaScript writes the estimate and success message here -->
+                <div id="form-response" class="form-response"></div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer with contact info and social media. Same on all pages -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Muthathi Constructions (Pty) Ltd. All rights reserved.</p>
+        <p>Email: info@muthathiconstructions.co.za | Phone: +27 11 555 0199</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/ConstructionSA" target="_blank" rel="noopener noreferrer">Facebook</a> |
+            <a href="https://www.instagram.com/constructionsa" target="_blank" rel="noopener noreferrer">Instagram</a> |
+            <a href="https://www.tiktok.com/@construction" target="_blank" rel="noopener noreferrer">TikTok</a> |
+            <a href="https://www.youtube.com/@constructionsa" target="_blank" rel="noopener noreferrer">YouTube</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

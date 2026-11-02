@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Muthathi Constructions</title>
+    <meta name="description" content="Explore Muthathi Constructions' professional building, renovations, painting, paving, and maintenance services. Request a quote today.">
+    <meta name="keywords" content="building construction services, home renovations Limpopo, painting services South Africa, paving contractors, building maintenance">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Site header with logo, hamburger button, and navigation -->
+    <header class="site-header">
+        <div class="logo-area">
+            <a href="index.html">
+                <img src="images/logo.jpeg" srcset="images/logo.jpeg 150w" sizes="150px" alt="Muthathi Constructions company logo" width="150" height="50" loading="lazy" decoding="async">
+            </a>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Intro text telling visitors what this page covers -->
+        <section class="page-intro animate-on-scroll">
+            <h1>Our Construction Services</h1>
+            <p>From the initial foundation to the final coat of paint, we offer a complete range of construction services for residential and commercial clients.</p>
+        </section>
+
+        <!-- Featured service box. JavaScript fills this with a different service each day -->
+        <section class="featured-service animate-on-scroll">
+            <div id="featured-service">
+                <h3>Loading featured service...</h3>
+            </div>
+        </section>
+
+        <!-- Search bar. JavaScript hides cards that do not match what you type -->
+        <section class="search-section animate-on-scroll">
+            <label for="service-search">Search our services:</label>
+            <input type="text" id="service-search" placeholder="Type to filter, e.g. painting, paving...">
+            <p id="no-results" style="display:none;">No services matched your search. Try a different word.</p>
+        </section>
+
+        <!-- Service cards. Each image can be clicked to open a bigger view -->
+        <section class="services-grid animate-on-scroll">
+            <h2>Featured Services</h2>
+
+            <article class="service-card">
+                <img class="gallery-img" 
+                     src="images/building-construction.png" 
+                     srcset="images/building-construction.png 600w" 
+                     sizes="(max-width: 768px) 100vw, 600px" 
+                     alt="Steel framework and concrete pouring for a new commercial building construction site" 
+                     width="600" height="400"
+                     loading="lazy" decoding="async">
+                <h3>Building and Construction</h3>
+                <p>From ground-up developments to structural projects, we manage everything from site preparation to structural framing and final touch-ups.</p>
+                <a href="enquiry.html" class="cta-link">Request a Quote</a>
+            </article>
+
+            <article class="service-card">
+                <img class="gallery-img" 
+                     src="images/renovation.png" 
+                     srcset="images/renovation.png 600w" 
+                     sizes="(max-width: 768px) 100vw, 600px" 
+                     alt="Bright modern open-plan kitchen renovation with new cabinetry and lighting" 
+                     width="600" height="400"
+                     loading="lazy" decoding="async">
+                <h3>Renovations</h3>
+                <p>We renovate existing spaces. Add a home extension, convert a basement, or modernise your office layout.</p>
+                <a href="enquiry.html" class="cta-link">Request a Quote</a>
+            </article>
+
+            <article class="service-card">
+                <img class="gallery-img" 
+                     src="images/painting-finishing.png" 
+                     srcset="images/painting-finishing.png 600w" 
+                     sizes="(max-width: 768px) 100vw, 600px" 
+                     alt="Professional painter applying smooth white paint to a residential interior wall" 
+                     width="600" height="400"
+                     loading="lazy" decoding="async">
+                <h3>Painting and Finishing</h3>
+                <p>Our teams deliver interior and exterior finishes. We specialise in protective coating, plastering, tiling, and decorative finishing.</p>
+                <a href="enquiry.html" class="cta-link">Request a Quote</a>
+            </article>
+        </section>
+
+        <!-- Extra services not featured in the cards above -->
+        <section class="additional-services animate-on-scroll">
+            <h2>Other Construction Services</h2>
+            <p>Beyond our featured services, we also provide:</p>
+            <ul>
+                <li><strong>General Construction:</strong> Full-service project management for industrial, commercial, and residential structures.</li>
+                <li><strong>Paving:</strong> Durable driveways, walkways, parking lots, and patio paving.</li>
+                <li><strong>Building Maintenance:</strong> Ongoing property upkeep, structural repairs, plumbing, electrical fixes, and facility management.</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer with contact info and social media. Same on all pages -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Muthathi Constructions (Pty) Ltd. All rights reserved.</p>
+        <p>Email: info@muthathiconstructions.co.za | Phone: +27 11 555 0199</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/ConstructionSA" target="_blank" rel="noopener noreferrer">Facebook</a> |
+            <a href="https://www.instagram.com/constructionsa" target="_blank" rel="noopener noreferrer">Instagram</a> |
+            <a href="https://www.tiktok.com/@construction" target="_blank" rel="noopener noreferrer">TikTok</a> |
+            <a href="https://www.youtube.com/@constructionsa" target="_blank" rel="noopener noreferrer">YouTube</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
